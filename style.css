@@ -80,7 +80,15 @@ body{
   }
   .title{
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 1px 1px 1px #919191,
+          1px 2px 1px #919191,
+          1px 3px 1px #919191,
+          1px 4px 1px #919191,
+          1px 5px 1px #919191,
+          1px 6px 1px #919191,
+          1px 7px 1px #919191,
+      1px 10px 6px rgba(16,16,16,0.4);
+    font-family: sans-serif;
     font-weight: 800;
     font-size: 8em;
     letter-spacing: -5px;
@@ -145,7 +153,7 @@ body{
     to {background-position:-10000px 5000px;}
   }
   
-  .stars, .twinkling{
+  .backgd{
     position:absolute;
     top:0;
     left:0;
