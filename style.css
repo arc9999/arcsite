@@ -48,6 +48,14 @@ body{
     margin-top: 50px;
     margin-bottom: 75px;
   }
+  .maintenace{
+    color: white;
+    font-family: sans-serif;
+    font-size: 36px;
+    line-height: 60px;
+    margin-top: 50px;
+    margin-bottom: 75px;
+  }
   .button {
 	border: none;
 	font-family: 'Courier New', Courier, monospace;
