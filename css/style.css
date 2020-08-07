@@ -113,11 +113,11 @@ a {
 }
 
 body {
-    background-color: #ccc;
+    background-color: #000;
 }
 
 .arcadex {
-    background-color: white;
+    background-color: #fff;
     padding-top: 3px;
     border-radius: 8px;
     height: 250px;
