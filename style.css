@@ -106,20 +106,29 @@ body{
 	transition: all 0.3s;
 }
 .button-1:hover {
-	background: #2980b9;
+	background: #3b5396;
 }
 
 .button-1:active {
-	background: #2980b9;
+	background: #3b5396;
+	top: 2px;
+}
+
+.button-2:hover {
+	background: #616161;
+}
+
+.button-2:active {
+	background: #616161;
 	top: 2px;
 }
   .blue{
     background-color:#486aa0;
     color: white;
   }
-  .white {
-    color: black;
-    background-color: white;
+  .grey {
+    color: rgb(158, 158, 158);
+    background-color: rgb(202, 202, 202);
   }
   .btn:active {
     -webkit-transform: scale(0.90);
