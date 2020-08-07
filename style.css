@@ -86,30 +86,27 @@ body{
     margin-top: 50px;
     margin-bottom: 75px;
   }
-  .btn {
-    padding: 1em 2.1em 1.1em;
-    border-radius: 3px;
-    margin: 8px 8px 8px 8px;
-    display: inline-block;
-    background: #e74c3c;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
-    font-family: sans-serif;
-    font-weight: 800;
-    font-size: 0.85em;
-    text-transform: uppercase;
-    text-align: center;
-    text-decoration: none;
-    -webkit-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.3) inset;
-    -moz-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.3) inset;
-    box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.3) inset;
-    position: relative;
-    opacity: 1.0;
-  }
+  .button {
+	border: none;
+	font-family: 'Lato';
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 25px 80px;
+	display: inline-block;
+	margin: 15px 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
   
-  .darkblue{
+  .blue{
     background-color:#486aa0;
     color: white;
   }
