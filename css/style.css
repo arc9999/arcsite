@@ -113,19 +113,12 @@ a {
 }
 
 body {
-    background-color: #000;
+    background-image: url(background.png);
 }
 
 .arcadex {
-    background-color: #fff;
-    padding-top: 3px;
-    border-radius: 8px;
-    height: 250px;
-    width: 500px;
-    position: absolute;
-    left: 50%;
-    right: 50%;
-    font-family: arial;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .adminpanel {
