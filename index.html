@@ -6,12 +6,6 @@
     <div class="main-wrapper">
         <h2>Home</h2></br>
 		<body>
-        <?php
-            if (isset($_SESSION['u_id'])) {
-                echo "You are logged in!";
-            }
-			include_once 'sidebar.php';
-        ?>
 		<div class="updates">
             </br>
             <div class="header-up">
@@ -27,9 +21,6 @@
             <button class="green">View</button>
             </div>
             <div class="april-title">
-                <center><?php
-                    echo date("d/m/y")
-                ?></center>
             </div>
             <div class="update-may">
                 <p>Unfinished ⁃ <b>00/06/18</b></p>‣</br>
@@ -44,7 +35,3 @@
         </body>
 	</div>
 </section>
-
-<?php
-    include_once 'footer.php';
-?>
