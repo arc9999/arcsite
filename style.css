@@ -127,7 +127,7 @@ body{
     color: white;
   }
   .grey {
-    color: rgb(158, 158, 158);
+    color: rgb(0, 0, 0);
     background-color: rgb(202, 202, 202);
   }
   .btn:active {
