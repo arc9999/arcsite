@@ -1,126 +1,129 @@
 body{
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: black;
-    overflow: hidden;
-  }
-  a{
-    text-decoration: none;
-    color: inherit;
-  }
-  .content{
-    /*background-color: rgba(0, 0, 255, 0.025);*/
-    position: absolute;
-    top: 50%;
-    left: 0;
-    right: 0;
-    margin-top: -150px;
-    padding-bottom: 60px; /*half of line-height in title*/
-    z-index: 1000;
-  }
-  .lines{
-    line-height: 0px;
-    font-size: 12pt;
-    color: white;
-    bottom: 0;
-    top: 0;
-  }
-  
-  .bottomright {
-    position: absolute;
-    bottom: -25px;
-    right: 11px;
-    font-size: 10pt;
-    z-index: 1000;
-    color: white;
-    opacity: 0.5;
-  }
-  .title{
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 72px;
-    line-height: 60px;
-    margin-top: 50px;
-    margin-bottom: 75px;
-  }
-  .maintenace{
-    color: white;
-    font-family: sans-serif;
-    font-size: 36px;
-    line-height: 60px;
-    margin-top: 50px;
-    margin-bottom: 75px;
-  }
-  .button {
-	border: none;
-	font-family: 'Courier New', Courier, monospace;
-	font-size: inherit;
-	color: inherit;
-	background: none;
-	cursor: pointer;
-	padding: 25px 80px;
-	display: inline-block;
-	margin: 15px 30px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: 700;
-	outline: none;
-	position: relative;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: black;
+  overflow: hidden;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.content{
+  /*background-color: rgba(0, 0, 255, 0.025);*/
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin-top: -150px;
+  padding-bottom: 60px; /*half of line-height in title*/
+  z-index: 1000;
+}
+.lines{
+  line-height: 0px;
+  font-size: 12pt;
+  color: white;
+  bottom: 0;
+  top: 0;
+}
+
+.bottomright {
+  position: absolute;
+  bottom: -25px;
+  right: 11px;
+  font-size: 10pt;
+  z-index: 1000;
+  color: white;
+  opacity: 0.5;
+}
+.title{
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 72px;
+  line-height: 60px;
+  margin-top: 50px;
+  margin-bottom: 75px;
+}
+.maintenace{
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 36px;
+  line-height: 60px;
+  margin-top: 50px;
+  margin-bottom: 75px;
+  position: absolute;
+padding-right: 500px;
+padding-left: 500px;
+}
+.button {
+border: none;
+font-family: 'Courier New', Courier, monospace;
+font-size: inherit;
+color: inherit;
+background: none;
+cursor: pointer;
+padding: 25px 80px;
+display: inline-block;
+margin: 15px 30px;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-weight: 700;
+outline: none;
+position: relative;
+-webkit-transition: all 0.3s;
+-moz-transition: all 0.3s;
+transition: all 0.3s;
 }
 .button-1:hover {
-	background: #3b5396;
+background: #3b5396;
 }
 
 .button-1:active {
-	background: #3b5396;
-	top: 2px;
+background: #3b5396;
+top: 2px;
 }
 
 .button-2:hover {
-	background: #616161;
+background: #616161;
 }
 
 .button-2:active {
-	background: #616161;
-	top: 2px;
+background: #616161;
+top: 2px;
 }
-  .blue{
-    background-color:#486aa0;
-    color: white;
-  }
-  .grey {
-    color: rgb(0, 0, 0);
-    background-color: rgb(202, 202, 202);
-  }
-  .btn:active {
-    -webkit-transform: scale(0.90);
-    -moz-transform: scale(0.90);
-    -ms-transform: scale(0.90);
-    -o-transform: scale(0.90);
-    transform: scale(0.90);
-    opacity: 0.9;
-  }
-  
-  .backgd{
-    position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    width:100%;
-    height:100%;
-    display:block;
-  }
-  
-  .backgd {
-    background:#000 url(background.png) repeat top center;
-    z-index:2;
-  }
+.blue{
+  background-color:#486aa0;
+  color: white;
+}
+.grey {
+  color: rgb(0, 0, 0);
+  background-color: rgb(202, 202, 202);
+}
+.btn:active {
+  -webkit-transform: scale(0.90);
+  -moz-transform: scale(0.90);
+  -ms-transform: scale(0.90);
+  -o-transform: scale(0.90);
+  transform: scale(0.90);
+  opacity: 0.9;
+}
+
+.backgd{
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  display:block;
+}
+
+.backgd {
+  background:#000 url(background.png) repeat top center;
+  z-index:2;
+}
