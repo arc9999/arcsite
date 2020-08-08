@@ -40,8 +40,8 @@ a{
 }
 .updated {
   position: absolute;
-  bottom: -25px;
-  right: 11px;
+  bottom: -270px;
+  left: 10px;
   font-size: 10pt;
   z-index: 1000;
   color: white;
